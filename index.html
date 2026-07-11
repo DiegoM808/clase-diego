@@ -57,7 +57,7 @@ h2 {font-size:26px;color:#00ff88;margin-bottom:20px}
 <p class="subhead">Descubre en vivo este <strong>JUEVES 16 JULIO</strong> cómo dejar de contestar mensajes todo el día. Te muestro en pantalla cómo programas tu Asistente de IA para que filtre curiosos y cierre ventas 24/7.</p>
 <div class="countdown">CLASE EN VIVO GRATUITA: JUEVES 16 JULIO - 8:00 PM ARG / 6:00 PM PANAMÁ</div>
 <a href="https://wa.me/5492664868126?text=Hola%20vengo%20de%20la%20clase%20del%20jueves%2016%20Quiero%20mi%20acceso%20AD_{{ad.id}}"
-   class="cta" onclick="fbq('track','Contact');">QUIERO MI ACCESO GRATUITO A LA CLASE EN VIVO</a>
+   class="cta" onclick="fbq('track','Contact'); setTimeout(function(){window.location.href=this.href;}.bind(this),300); return false;">QUIERO MI ACCESO GRATUITO A LA CLASE EN VIVO</a>
 <p style="font-size:12px;color:#00ff88;margin-top:8px">✓ 100% Gratuita. Sin tarjeta. Sin grabación posterior.</p>
 <p class="subcta">Te unes al grupo privado de WhatsApp donde te espero. Si estás en otro país, al entrar te pasamos tu horario local.</p>
 </div>
@@ -98,8 +98,6 @@ h2 {font-size:26px;color:#00ff88;margin-bottom:20px}
 <div class="chat-user">Cliente: "Tienen 3 ambientes?"</div>
 <div class="chat-bot">IA: "Sí Juan. Tengo 2 disponibles en Palermo. ¿Quieres video de 30s del depto para decidir hoy?"</div>
 </div>
-</div>
-</div>
 
 <div class="section">
 <h2>Qué verás el JUEVES en la clase en vivo</h2>
@@ -127,7 +125,7 @@ h2 {font-size:26px;color:#00ff88;margin-bottom:20px}
 
 <div style="text-align:center;margin:40px 0">
 <a href="https://wa.me/5492664868126?text=Hola%20vengo%20de%20la%20clase%20del%20jueves%2016%20Quiero%20mi%20acceso%20AD_{{ad.id}}"
-   class="cta" onclick="fbq('track','Contact');">QUIERO MI ACCESO GRATUITO A LA CLASE EN VIVO</a>
+   class="cta" onclick="fbq('track','Contact'); setTimeout(function(){window.location.href=this.href;}.bind(this),300); return false;">QUIERO MI ACCESO GRATUITO A LA CLASE EN VIVO</a>
 <p class="subcta">Cerramos grupo al llegar a 100 personas. No hay grabación posterior.</p>
 </div>
 
@@ -137,17 +135,5 @@ h2 {font-size:26px;color:#00ff88;margin-bottom:20px}
 </div>
 
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.cta').forEach(function(btn){
-    btn.addEventListener('click', function(){
-      fbq('track','Contact');
-      console.log('Contact enviado a Meta');
-    });
-  });
-});
-</script>
-
 </body>
 </html>
