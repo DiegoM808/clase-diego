@@ -1,229 +1,153 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase en Vivo Gratuita - DM Marketing Digital</title>
-    
-    <!-- Meta Pixel Code -->
-    <script>
-   !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1682143782810560');
-    fbq('track', 'PageView');
-    fbq('track', 'ViewContent');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1682143782810560&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
-      .container {
-            max-width: 600px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            overflow: hidden;
-        }
-      .header {
-            background: #E91E63;
-            color: white;
-            padding: 30px 20px;
-            text-align: center;
-        }
-      .header h1 {
-            font-size: 26px;
-            font-weight: 900;
-            margin-bottom: 10px;
-            line-height: 1.2;
-        }
-      .header.fecha {
-            font-size: 20px;
-            font-weight: 700;
-            background: rgba(255,255,255,0.2);
-            display: inline-block;
-            padding: 8px 20px;
-            border-radius: 50px;
-            margin-top: 10px;
-        }
-      .content {
-            padding: 35px 30px;
-        }
-      .btn-rosa {
-            display: block;
-            background: #E91E63;
-            color: white;
-            padding: 16px 25px;
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: bold;
-            border-radius: 50px;
-            text-align: center;
-            margin: 20px auto 30px;
-            max-width: 380px;
-            box-shadow: 0 4px 15px rgba(233, 30, 99, 0.4);
-            transition: all 0.3s ease;
-        }
-      .btn-rosa:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(233, 30, 99, 0.6);
-        }
-      .subtitulo {
-            font-size: 18px;
-            color: #333;
-            font-weight: 600;
-            text-align: center;
-            margin-bottom: 25px;
-            line-height: 1.4;
-        }
-      .beneficios {
-            margin: 30px 0;
-        }
-      .beneficios h3 {
-            font-size: 18px;
-            color: #E91E63;
-            margin-bottom: 15px;
-            text-align: center;
-        }
-      .check-item {
-            display: flex;
-            align-items: flex-start;
-            margin: 15px 0;
-            font-size: 15px;
-            color: #444;
-            line-height: 1.5;
-        }
-      .check-item:before {
-            content: "✅";
-            margin-right: 12px;
-            font-size: 18px;
-            flex-shrink: 0;
-        }
-      .urgencia {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
-            padding: 18px;
-            border-radius: 8px;
-            margin: 25px 0;
-            text-align: center;
-        }
-      .urgencia strong {
-            color: #856404;
-            font-size: 16px;
-        }
-      .btn-whatsapp {
-            display: block;
-            background: #25D366;
-            color: white;
-            padding: 20px 30px;
-            text-decoration: none;
-            font-size: 18px;
-            font-weight: bold;
-            border-radius: 50px;
-            text-align: center;
-            margin: 30px auto;
-            max-width: 420px;
-            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
-            transition: all 0.3s ease;
-        }
-      .btn-whatsapp:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
-        }
-      .footer {
-            text-align: center;
-            padding: 25px 20px;
-            background: #f8f9fa;
-            font-size: 13px;
-            color: #666;
-        }
-      .footer p {
-            margin: 5px 0;
-        }
-        @media (max-width: 600px) {
-          .header h1 { font-size: 22px; }
-          .header.fecha { font-size: 16px; }
-          .content { padding: 25px 20px; }
-          .btn-whatsapp,.btn-rosa { font-size: 16px; padding: 18px 20px; }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¿Tu WhatsApp es tu cárcel? - Clase en Vivo Gratuita</title>
+<!-- Meta Pixel Base -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1682143782810560');
+fbq('track', 'PageView');
+fbq('track', 'ViewContent');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1682143782810560&ev=PageView&noscript=1"
+/></noscript>
+<style>
+* {margin:0;padding:0;box-sizing:border-box}
+body {font-family:'Arial',sans-serif;background:#0a0a0a;color:#fff;line-height:1.6}
+.container {max-width:800px;margin:0 auto;padding:20px}
+.hero {text-align:center;padding:40px 20px;background:linear-gradient(135deg,#1a1a1a 0%,#0d0d0d 100%);border-radius:12px;margin-bottom:30px}
+h1 {font-size:32px;color:#00ff88;margin-bottom:15px;font-weight:900}
+.subhead {font-size:18px;color:#ccc;margin-bottom:25px}
+.countdown {background:#ff0066;padding:15px;border-radius:8px;margin:20px 0;font-size:20px;font-weight:bold}
+.cta {display:inline-block;background:#00ff88;color:#000;padding:18px 40px;font-size:20px;font-weight:900;text-decoration:none;border-radius:8px;margin:15px 0;transition:0.3s;cursor:pointer}
+.cta:hover {background:#00cc6a;transform:scale(1.05)}
+.subcta {font-size:14px;color:#ccc;margin-top:10px}
+.section {background:#1a1a1a;padding:30px;border-radius:12px;margin-bottom:20px}
+h2 {font-size:26px;color:#00ff88;margin-bottom:20px}
+.error {background:#2a2a2a;padding:20px;border-left:4px solid #ff0066;margin-bottom:15px;border-radius:6px}
+.error h3 {color:#ff0066;font-size:18px;margin-bottom:8px}
+.mockup {background:#000;padding:20px;border-radius:12px;margin:20px 0}
+.chat {background:#1e1e1e;padding:12px;border-radius:8px;margin-bottom:10px}
+.chat-user {text-align:right;color:#888;font-size:14px}
+.chat-bot {background:#00ff88;color:#000;padding:10px;border-radius:8px;margin-top:5px;font-size:14px}
+.bullet {padding:15px 0;border-bottom:1px solid #333}
+.bullet:last-child {border:none}
+.check {color:#00ff88;margin-right:10px}
+.no {color:#ff0066;margin-right:10px}
+.quote {background:#0d0d0d;padding:20px;border-left:4px solid #00ff88;border-radius:8px;margin:20px 0;font-style:italic}
+.footer {text-align:center;padding:40px 20px;color:#666;font-size:14px}
+@media(max-width:600px){h1{font-size:24px}.cta{font-size:18px;padding:15px 30px}}
+</style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>CLASE EN VIVO GRATUITA</h1>
-            <div class="fecha">JUEVES 16 DE JULIO - 20:00HS</div>
-        </div>
-        
-        <div class="content">
-            <!-- BOTÓN ROSA DE ARRIBA - TRACKEA CONTACT -->
-            <a href="https://wa.me/5492604488128?text=Hola%20vengo%20de%20la%20clase%20del%20jueves%2016.%20Quiero%20mi%20acceso%20AL%202x1.%20Soy:" 
-               class="btn-rosa"
-               onclick="fbq('track', 'Contact');">
-               CLASE EN VIVO GRATUITA - JUEVES 16
-            </a>
+<div class="container">
 
-            <p class="subtitulo">
-                Descubrí el método exacto que uso para crear anuncios que traen clientes todos los días, sin depender de agencias caras.
-            </p>
-            
-            <div class="beneficios">
-                <h3>En esta clase vas a aprender:</h3>
-                <div class="check-item">Cómo estructurar tu oferta para que la gente quiera comprarte YA</div>
-                <div class="check-item">El error #1 que mata el 90% de los anuncios y cómo evitarlo</div>
-                <div class="check-item">Mi plantilla de anuncio que convierte 70%+ en WhatsApp</div>
-                <div class="check-item">Cómo configurar tu Pixel para que Meta te traiga compradores, no curiosos</div>
-                <div class="check-item">El truco de WhatsApp que duplica tus ventas sin gastar más en ads</div>
-            </div>
+<div class="hero">
+<h1>¿Tu WhatsApp se convirtió en la cárcel de tu negocio?</h1>
+<p class="subhead">Descubre en vivo este <strong>JUEVES 16 JULIO</strong> cómo dejar de contestar mensajes todo el día. Te muestro en pantalla cómo programas tu Asistente de IA para que filtre curiosos y cierre ventas 24/7.</p>
+<div class="countdown">CLASE EN VIVO GRATUITA: JUEVES 16 JULIO - 8:00 PM ARG / 6:00 PM PANAMÁ</div>
+<a href="https://wa.me/5492664868126?text=Hola%20vengo%20de%20la%20clase%20del%20jueves%2016%20Quiero%20mi%20acceso%20AD_{{ad.id}}"
+   class="cta" onclick="fbq('track','Contact');">QUIERO MI ACCESO GRATUITO A LA CLASE EN VIVO</a>
+<p style="font-size:12px;color:#00ff88;margin-top:8px">✓ 100% Gratuita. Sin tarjeta. Sin grabación posterior.</p>
+<p class="subcta">Te unes al grupo privado de WhatsApp donde te espero. Si estás en otro país, al entrar te pasamos tu horario local.</p>
+</div>
 
-            <div class="urgencia">
-                <strong>⚠️ CUPOS LIMITADOS</strong><br>
-                Solo 50 lugares disponibles para mantener la calidad del vivo
-            </div>
-            
-            <!-- PRIMER BOTÓN VERDE - TRACKEA CONTACT -->
-            <a href="https://wa.me/5492604488128?text=Hola%20vengo%20de%20la%20clase%20del%20jueves%2016.%20Quiero%20mi%20acceso%20AL%202x1.%20Soy:" 
-               class="btn-whatsapp"
-               onclick="fbq('track', 'Contact');">
-               QUIERO MI ACCESO GRATUITO A LA CLASE EN VIVO
-            </a>
+<div style="text-align:center;color:#00ff88;font-size:14px;margin:20px 0;opacity:0.8">
+✓ Método validado por +4.127 PyMEs en LATAM en los últimos 18 meses | Casos de Panamá, Argentina y México
+</div>
 
-            <p style="text-align: center; margin-top: 20px; font-size: 14px; color: #666;">
-                100% Online y en vivo por Zoom<br>
-                Te enviamos el link por WhatsApp 1 hora antes
-            </p>
+<div class="section">
+<h2>Los 3 errores por los que pierdes 40% de ventas en WhatsApp</h2>
 
-            <!-- SEGUNDO BOTÓN VERDE DE ABAJO - TRACKEA CONTACT -->
-            <a href="https://wa.me/5492604488128?text=Hola%20vengo%20de%20la%20clase%20del%20jueves%2016.%20Quiero%20mi%20acceso%20AL%202x1.%20Soy:" 
-               class="btn-whatsapp"
-               onclick="fbq('track', 'Contact');">
-               QUIERO MI ACCESO GRATUITO A LA CLASE EN VIVO
-            </a>
-        </div>
+<div class="error">
+<h3>ERROR #1: TÚ ERES EL SISTEMA</h3>
+<p>Contestas "precio info" a las 11 de la noche. Si no respondes en 5 minutos, se van con la competencia. Duermes con el teléfono al lado.</p>
+</div>
 
-        <div class="footer">
-            <p><strong>Diego Mateu - DM Marketing Digital</strong></p>
-            <p>Al tocar el botón aceptás recibir mensajes por WhatsApp</p>
-        </div>
-    </div>
+<div class="error">
+<h3>ERROR #2: HABLAS CON TODO EL MUNDO</h3>
+<p>Respondes a 50 personas al día. Solo 3 compran. Pierdes tiempo con curiosos que nunca van a comprar. Tu energía se va en conversaciones que no cierran.</p>
+</div>
+
+<div class="error">
+<h3>ERROR #3: NO TIENES SEGUIMIENTO</h3>
+<p>Cliente pregunta hoy. Tú respondes. Él dice "lo pienso". Nunca vuelve. Pierdes 40% de ventas porque no tienes sistema para recordar quién preguntó qué.</p>
+</div>
+
+<div class="mockup">
+<h3 style="color:#00ff88;margin-bottom:15px">Tu Asistente de Inteligencia Artificial trabaja por ti 24/7:</h3>
+<div class="chat">
+<div class="chat-user">Cliente: "¿Hacen envíos?"</div>
+<div class="chat-bot">IA: "Sí. A todo el país en 24h. ¿Quieres que te separe uno? ¿Es para ti o para regalar?"</div>
+</div>
+<div class="chat">
+<div class="chat-user">Cliente: "¿Cuánto sale la consulta?"</div>
+<div class="chat-bot">IA: "Te agendo con el Dr. Facundo ahora. ¿Prefieres hoy a las 17h o mañana 10h?"</div>
+</div>
+<div class="chat">
+<div class="chat-user">Cliente: "Tienen 3 ambientes?"</div>
+<div class="chat-bot">IA: "Sí Juan. Tengo 2 disponibles en Palermo. ¿Quieres video de 30s del depto para decidir hoy?"</div>
+</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Qué verás el JUEVES en la clase en vivo</h2>
+<p style="margin-bottom:20px;color:#ccc">Te muestro en pantalla compartida cómo configurar el sistema completo. No teoría. Solo práctica.</p>
+
+<div class="bullet">
+<span class="check">✓</span> <strong>El Filtro de 10 Segundos:</strong> Separas en automático quién está listo para comprar y quién solo pregunta. Tú le enseñas qué decir a tu Asistente IA
+</div>
+<div class="bullet">
+<span class="check">✓</span> <strong>Tú Programas Tu IA:</strong> Sin depender de técnicos. La herramienta ya sabe qué hacer para vender por ti
+</div>
+<div class="bullet">
+<span class="check">✓</span> <strong>Seguimiento Automático:</strong> Hace seguimiento a cada persona que preguntó. Envía mensajes personalizados en el momento exacto. Recupera ventas perdidas
+</div>
+
+<div class="quote">
+"Al final te muestro cómo implementar el sistema paso a paso" - Diego Mateu
+</div>
+
+<h2 style="margin-top:20px">No necesitas para empezar:</h2>
+<p><span class="no">❌</span> <strong>Ser experto en tecnología:</strong> La herramienta ya está preparada para todo lo que te explico</p>
+<p><span class="no">❌</span> <strong>Tener miles de seguidores:</strong> Funciona aunque empieces de cero</p>
+<p><span class="no">❌</span> <strong>Contratar empleados:</strong> Tu Asistente IA vende por ti, mejor que una persona</p>
+</div>
+
+<div style="text-align:center;margin:40px 0">
+<a href="https://wa.me/5492664868126?text=Hola%20vengo%20de%20la%20clase%20del%20jueves%2016%20Quiero%20mi%20acceso%20AD_{{ad.id}}"
+   class="cta" onclick="fbq('track','Contact');">QUIERO MI ACCESO GRATUITO A LA CLASE EN VIVO</a>
+<p class="subcta">Cerramos grupo al llegar a 100 personas. No hay grabación posterior.</p>
+</div>
+
+<div class="footer">
+<p>© 2026 - Diego Mateu</p>
+<p style="margin-top:10px;font-size:12px">Esta clase no tiene grabación. O estás en vivo o pierdes esta oportunidad.</p>
+</div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.cta').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      fbq('track','Contact');
+      console.log('Contact enviado a Meta');
+    });
+  });
+});
+</script>
+
 </body>
 </html>
